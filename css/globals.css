@@ -426,5 +426,10 @@ img, video, canvas {
 html, body { margin: 0; }
 
 /* 전체 페이지가 살짝 좌우로 흔들리면(그림자/고정폭 요소 때문에) */
-html { overflow-x: hidden; }      /* 페이지는 숨기고, 상품 줄은 overflow-x:auto로 스크롤 */
+html {
+  overflow-x: hidden; /* 페이지는 숨기고 */
+}
+body {
+  overflow-x: visible; /* 하지만 상품 프레임은 보여줄 수 있게 */
+}      /* 페이지는 숨기고, 상품 줄은 overflow-x:auto로 스크롤 */
 
