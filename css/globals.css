@@ -1,0 +1,360 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Baskervville:400|Prata:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/690b620c1798e80def477e18.690b620d1798e80def477e1b.sySfibw.hcp.png");
+
+@font-face {
+  font-family: "Pretendard Variable-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/PretendardVariable.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Pretendard Variable-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/PretendardVariable.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Helvetica Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard Variable-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/PretendardVariable.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.frame-53 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.sauce-salon {
+  align-self: stretch;
+  color: var(--white);
+  font-family: var(--font-family-baskervville);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: -0.84px;
+  line-height: 42px;
+  margin-top: -0.75px;
+  position: relative;
+  text-align: center;
+}
+
+.frame-42 {
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1440px;
+}
+
+.jaehun-lee {
+  color: var(--eerie-black);
+  cursor: pointer;
+  font-family: var(--font-family-baskervville);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  left: calc(50.00% - 68px);
+  letter-spacing: -0.70px;
+  line-height: normal;
+  position: absolute;
+  top: calc(50.00% - 18px);
+}
+
+.material-symbols-lightsearch-rounded {
+  aspect-ratio: 1;
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.vector {
+  height: 62.50%;
+  left: 18.34%;
+  position: absolute;
+  top: 18.19%;
+  width: 62.47%;
+}
+
+._light {
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.ellipse-45 {
+  height: 22.70%;
+  left: 15.72%;
+  position: absolute;
+  top: 64.58%;
+  width: 68.57%;
+}
+
+.ellipse-46 {
+  border: 1.5px solid;
+  border-color: var(--black);
+  border-radius: 6.75px;
+  height: 37.50%;
+  left: 31.25%;
+  position: absolute;
+  top: 14.58%;
+  width: 37.50%;
+}
+
+.phlist-thin {
+  aspect-ratio: 1;
+  height: 36px;
+  left: 45px;
+  position: absolute;
+  top: calc(50.00% - 18px);
+  width: 36px;
+}
+
+.vector-1 {
+  height: 49.28%;
+  left: 16.67%;
+  position: absolute;
+  top: 25.03%;
+  width: 66.67%;
+}
+
+.frame-413 {
+  bottom: 3px;
+  height: 783px;
+  left: 0;
+  position: absolute;
+  width: 1440px;
+}
+
+.line-23 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+  width: 1440px;
+}
+
+.line-24 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 447px;
+  width: 1440px;
+}
+
+.frame-360 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 171.75px;
+  left: calc(50.00% - 600px);
+  position: absolute;
+  top: 60px;
+}
+
+.frame-356 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  width: 271.63px;
+}
+
+.frame-35 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 21px;
+  position: relative;
+  width: 100%;
+}
+
+.frame-357 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  width: 83.25px;
+}
+
+.frame-358 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  width: 74.46px;
+}
+
+.frame-359 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  width: 255px;
+}
+
+.frame-367 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  left: 120px;
+  position: absolute;
+  top: 508px;
+  width: 457px;
+}
+
+.frame-365 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.frame-36 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 9px;
+  position: relative;
+}
+
+.line-25 {
+  height: 10.5px;
+  position: relative;
+  width: 1px;
+}
+
+.frame-362 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 9px;
+  position: relative;
+  width: 100%;
+}
+
+.salesforce {
+  letter-spacing: -0.38px;
+  line-height: 22.5px;
+  margin-top: -0.75px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.phone {
+  letter-spacing: -0.38px;
+  line-height: 22.5px;
+  margin-top: -0.75px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.email-korea-saucesaloncom {
+  letter-spacing: -0.38px;
+  line-height: 22.5px;
+  margin-top: -0.75px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-368 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  left: 819px;
+  position: absolute;
+  top: 508px;
+  width: 501px;
+}
+
+.frame-366 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 45px;
+  position: relative;
+}
+
+.title {
+  color: var(--black);
+  font-family: var(--font-family-baskervville);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  left: calc(50.00% - 186px);
+  letter-spacing: -0.80px;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 738px;
+  width: 372px;
+}
