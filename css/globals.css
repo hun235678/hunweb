@@ -358,3 +358,7 @@
   top: 738px;
   width: 372px;
 }
+
+html, body { margin: 0; padding: 0; }
+body { display: flex; justify-content: center; }
+body > .screen { width: 1440px; max-width: 1440px; }
