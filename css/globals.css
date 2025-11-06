@@ -399,7 +399,7 @@ img, video, canvas {
 
 
 /* ===== 상품 영역 가로 스크롤 ===== */
-.frame-341 {
+.frame-430 {
   display: flex;
   gap: 48px;
   overflow-x: auto;
@@ -407,18 +407,18 @@ img, video, canvas {
   scroll-snap-type: x proximity;
 }
 
-.frame-341 > * {
+.frame-430 > * {
   flex: 0 0 420px;
   scroll-snap-align: start;
 }
 
-.frame-341 img {
+.frame-430 img {
   width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.frame-341, .frame-341 * {
+.frame-430, .frame-430 * {
   min-width: 0;
 }
 
@@ -433,3 +433,39 @@ body {
   overflow-x: visible; /* 하지만 상품 프레임은 보여줄 수 있게 */
 }      /* 페이지는 숨기고, 상품 줄은 overflow-x:auto로 스크롤 */
 
+.frame-341-product {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 48px !important;
+  overflow-x: auto !important;
+  overflow-y: visible;
+  padding: 0 24px 16px;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 2) 각 카드 최소폭 고정(눌림 방지) + 스냅 기준 */
+.frame-341-product > * {
+  flex: 0 0 420px !important;   /* 카드 너비 고정 */
+  min-width: 420px !important;
+  scroll-snap-align: start;
+}
+
+/* 3) 카드 안 이미지가 늘어지거나 눌리지 않게 */
+.frame-341-product img {
+  width: 100% !important;      /* 카드 너비에 맞춰 채우기 */
+  height: auto !important;     /* 비율 유지 */
+  max-width: none !important;  /* 전역 max-width:100% 룰로 인한 눌림 방지 */
+  object-fit: contain !important;
+  display: block;
+}
+
+/* 4) Anima가 카드에 min-width:0을 줬다면 무력화 */
+.frame-341-product, .frame-341-product * {
+  min-width: unset;
+}
+
+/* 5) 페이지 전체는 1440 중앙 정렬(이미 있으나 보강) */
+:root { --page-width: 1440px; }
+body { display: flex; justify-content: center; }
+body > .screen { width: var(--page-width); max-width: var(--page-width); }
